@@ -2,12 +2,12 @@ body {
   font-family: "Calibri";
   font-size: bold;
   font-size: 20px;
-  color: black;
+  color: white;
   margin: 50px;
 }
 
 a {
-  color: white;
+  color: black;
   background-color: black;
   padding-left: 50px;
   padding-right: 50px;
@@ -28,17 +28,27 @@ h1 {
   border: double 5px black;
 }
 
+label,
 input {
   font-family: "Calibri";
   font-size: 24px;
-  color: black;
+  color: white;
 }
 
 div {
-  background-color: white;
   text-align: center;
   color: black;
-  margin: 25px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.cree_card {
+  background-color: black;
+  color: white;
+  border: double white 10px;
+  padding-top: 0;
+  margin-left: 100px;
+  padding: 10px;
 }
 
 .card {

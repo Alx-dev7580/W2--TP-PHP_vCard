@@ -38,6 +38,7 @@ if ($firstname && $lastname && $email && $phone) {
             <div>
                 <span class="phone">Téléphone : %s</span>
             </div>
+            <hr>
             <div>
                 <span class="email">Email : %s</span>
             </div>
@@ -108,9 +109,10 @@ foreach (new DirectoryIterator('.') as $fileInfo) {
                     </br>
                     <input required type="text" name="phone" id="phone" placeholder="0123456789" />
                 </div>
-                <input type="submit" value="Créer la carte" />
-            </form>
         </div>
+        <input class="cree_card" type="submit" value="Créer la carte" />
+        </form>
+
 
 
     <?php else : ?>
