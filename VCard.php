@@ -114,10 +114,9 @@ foreach (new DirectoryIterator('.') as $fileInfo) {
         </form>
 
 
-
     <?php else : ?>
         <?= file_get_contents($card["filename"]) ?>
-        <a href="index.php?telechargement=<?= $card["filename"] ?>"> Télécharger </a>
+        <a href="vCard.php?telechargement=<?= $card["filename"] ?>"> Télécharger </a>
     <?php endif; ?>
     </body>
 

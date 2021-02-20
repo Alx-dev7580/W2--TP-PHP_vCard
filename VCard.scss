@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: black;
+  color: white;
   background-color: black;
   padding-left: 50px;
   padding-right: 50px;
@@ -28,16 +28,15 @@ h1 {
   border: double 5px black;
 }
 
-label,
 input {
   font-family: "Calibri";
   font-size: 24px;
-  color: white;
+  color: black;
 }
 
 div {
+  color: white;
   text-align: center;
-  color: black;
   margin-bottom: 50px;
   margin-top: 50px;
 }
